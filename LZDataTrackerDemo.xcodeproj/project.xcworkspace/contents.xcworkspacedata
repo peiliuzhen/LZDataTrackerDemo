@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HGDataTrackerDemo.xcodeproj">
+      location = "self:/Users/plz/Documents/Study/OC/LZDataTrackerDemo/LZDataTrackerDemo.xcodeproj">
    </FileRef>
 </Workspace>

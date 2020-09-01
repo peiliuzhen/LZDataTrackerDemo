@@ -1,6 +1,6 @@
 //
 //  main.m
-//  HGDataTrackerDemo
+// LZDataTrackerDemo
 //
 //  Created by plz on 2020/7/28.
 //  Copyright © 2020 plz. All rights reserved.

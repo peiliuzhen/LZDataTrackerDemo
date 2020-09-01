@@ -1,0 +1,105 @@
+{
+    "Gesture":{
+        "RootViewController/gestureclicked:":{
+            "userDefined": {
+                "action": "click",
+                "pageid": "1234",
+                "pageName": "首页",
+                "eventName":"点击手势"
+            },
+            "eventParam":{
+                "spm":"a-b-c-spm",
+                "pageName":"",
+                "tips":""
+            }
+        }
+    },
+    "ViewController":{
+        "RootViewController/viewWillAppear":{
+            "userDefined": {
+                "action": "show",
+                "pageid": "1234",
+                "pageName": "首页",
+                "eventName":"首页展示"
+            },
+            "eventParam":{
+                "spm":"",
+                "pageName":"",
+                "tips":""
+            }
+        },
+        "SecondViewController/viewWillAppear":{
+            "userDefined": {
+                "action": "show",
+                "pageid": "1235",
+                "pageName": "灵感页",
+                "eventName":"灵感页展示"
+            },
+            "eventParam":{
+                "spm":"",
+                "pageName":"",
+                "tips":""
+            }
+        }
+    },
+    "CollectionView":{
+        "ThirdViewController/0":{
+            "viewcontroller":true,
+            "userDefined": {
+                "action": "click",
+                "pageid": "12345",
+                "pageName": "灵感页",
+                "eventName":"点击collectionview"
+            },
+            "eventParam":{
+                "spm":"a-b-c-spm",
+                "pageName":"",
+                "tips":""
+            }
+        }
+    },
+    "TableView":{
+        "SecondViewController/0":{
+            "viewcontroller":true,
+            "userDefined": {
+                "action": "click",
+                "pageid": "12345",
+                "pageName": "灵感页",
+                "eventName":"点击tableview"
+            },
+            "eventParam":{
+                "spm":"a-b-c-spm",
+                "pageName":"",
+                "tips":""
+            }
+        }
+    },
+    "Action":{
+        "RootViewController/testButtonClick:/0":{
+            "userDefined": {
+                "action": "click",
+                "pageid": "1234",
+                "pageName": "首页",
+                "eventName":"点击测试按钮"
+            },
+            "eventParam":{
+                "spm":"a-b-c-spm",
+                "pageName":"",
+                "tips":""
+            }
+        },
+        "SecondViewController/UIView/UITableView/TableViewCell/testButtonClick:/0":{
+            "userDefined": {
+                "action": "click",
+                "pageid": "1234",
+                "pageName": "灵感",
+                "eventName":"cell里的点击测试按钮"
+            },
+            "eventParam":{
+                "spm":"a-b-c-spm",
+                "pageName":"",
+                "tips":""
+            }
+        }
+    }
+}

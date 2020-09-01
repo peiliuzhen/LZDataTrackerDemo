@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  HGDataTrackerDemo
+// LZDataTrackerDemo
 //
 //  Created by plz on 2020/7/28.
 //  Copyright © 2020 plz. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UINavigationController * nav =[[UINavigationController alloc]initWithRootViewController:[[RootViewController alloc]init]];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = nav;
+    self.window.backgroundColor=UIColor.whiteColor;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

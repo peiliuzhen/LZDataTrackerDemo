@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A20F5A024E0F869001FE86A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F59E24E0F869001FE86A /* TableViewCell.m */; };
+		0A20F5A124E0F869001FE86A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A20F59F24E0F869001FE86A /* TableViewCell.xib */; };
+		0A20F5A524E0F8BD001FE86A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F5A324E0F8BD001FE86A /* ThirdViewController.m */; };
+		0A20F5A624E0F8BD001FE86A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A20F5A424E0F8BD001FE86A /* ThirdViewController.xib */; };
+		0A20F5AA24E11E08001FE86A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F5A824E11E08001FE86A /* CollectionViewCell.m */; };
+		0A20F5AB24E11E08001FE86A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A20F5A924E11E08001FE86A /* CollectionViewCell.xib */; };
+		0A20F5AD24E15AFD001FE86A /* LZDataTrack.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A20F5AC24E15AFD001FE86A /* LZDataTrack.json */; };
+		0A20F5B024E2873E001FE86A /* LZCaptureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20F5AF24E2873E001FE86A /* LZCaptureTool.m */; };
+		0A2965DB24DCFD8C003BC725 /* LZDataTrack.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A2965DA24DCFD8C003BC725 /* LZDataTrack.plist */; };
+		0A2965DF24DD1453003BC725 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2965DD24DD1453003BC725 /* SecondViewController.m */; };
+		0A2965E024DD1453003BC725 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2965DE24DD1453003BC725 /* SecondViewController.xib */; };
+		0A2965E324DD30BC003BC725 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2965E224DD30BC003BC725 /* RootViewController.m */; };
+		0A2965E724DD3B29003BC725 /* LZFindVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2965E624DD3B28003BC725 /* LZFindVCManager.m */; };
+		0A80C7BD24D0018A005A50B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7BC24D0018A005A50B9 /* AppDelegate.m */; };
+		0A80C7C024D0018A005A50B9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7BF24D0018A005A50B9 /* SceneDelegate.m */; };
+		0A80C7C624D0018A005A50B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A80C7C424D0018A005A50B9 /* Main.storyboard */; };
+		0A80C7C824D0018B005A50B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A80C7C724D0018B005A50B9 /* Assets.xcassets */; };
+		0A80C7CB24D0018B005A50B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A80C7C924D0018B005A50B9 /* LaunchScreen.storyboard */; };
+		0A80C7CE24D0018B005A50B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7CD24D0018B005A50B9 /* main.m */; };
+		0A80C7D724D003BA005A50B9 /* UIViewController+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7D524D003BA005A50B9 /* UIViewController+Track.m */; };
+		0A80C7DC24D003F8005A50B9 /* LZMethodSwizzingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7D824D003F8005A50B9 /* LZMethodSwizzingTool.m */; };
+		0A80C7DD24D003F8005A50B9 /* LZDataTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80C7D924D003F8005A50B9 /* LZDataTrackTool.m */; };
+		0AD88B1E24E0F4A500D4C288 /* UIGestureRecognizer+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88B1724E0F4A500D4C288 /* UIGestureRecognizer+Track.m */; };
+		0AD88B1F24E0F4A500D4C288 /* UIControl+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88B1B24E0F4A500D4C288 /* UIControl+Track.m */; };
+		0AD88B2024E0F4A500D4C288 /* UICollectionView+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88B1C24E0F4A500D4C288 /* UICollectionView+Track.m */; };
+		0AD88B2124E0F4A500D4C288 /* UITableView+Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD88B1D24E0F4A500D4C288 /* UITableView+Track.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A20F59D24E0F869001FE86A /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		0A20F59E24E0F869001FE86A /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		0A20F59F24E0F869001FE86A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		0A20F5A224E0F8BD001FE86A /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0A20F5A324E0F8BD001FE86A /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0A20F5A424E0F8BD001FE86A /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		0A20F5A724E11E08001FE86A /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0A20F5A824E11E08001FE86A /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		0A20F5A924E11E08001FE86A /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		0A20F5AC24E15AFD001FE86A /* LZDataTrack.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LZDataTrack.json; sourceTree = "<group>"; };
+		0A20F5AE24E2873E001FE86A /* LZCaptureTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCaptureTool.h; sourceTree = "<group>"; };
+		0A20F5AF24E2873E001FE86A /* LZCaptureTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCaptureTool.m; sourceTree = "<group>"; };
+		0A20F5B124E288C4001FE86A /* LZDataTrackKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZDataTrackKit.h; sourceTree = "<group>"; };
+		0A2965DA24DCFD8C003BC725 /* LZDataTrack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LZDataTrack.plist; sourceTree = "<group>"; };
+		0A2965DC24DD1453003BC725 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0A2965DD24DD1453003BC725 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0A2965DE24DD1453003BC725 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		0A2965E124DD30BC003BC725 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0A2965E224DD30BC003BC725 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0A2965E524DD3B28003BC725 /* LZFindVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFindVCManager.h; sourceTree = "<group>"; };
+		0A2965E624DD3B28003BC725 /* LZFindVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFindVCManager.m; sourceTree = "<group>"; };
+		0A80C7B824D0018A005A50B9 /* LZDataTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZDataTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A80C7BB24D0018A005A50B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A80C7BC24D0018A005A50B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A80C7BE24D0018A005A50B9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0A80C7BF24D0018A005A50B9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0A80C7C524D0018A005A50B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A80C7C724D0018B005A50B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A80C7CA24D0018B005A50B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A80C7CC24D0018B005A50B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A80C7CD24D0018B005A50B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A80C7D524D003BA005A50B9 /* UIViewController+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Track.m"; sourceTree = "<group>"; };
+		0A80C7D624D003BA005A50B9 /* UIViewController+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Track.h"; sourceTree = "<group>"; };
+		0A80C7D824D003F8005A50B9 /* LZMethodSwizzingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMethodSwizzingTool.m; sourceTree = "<group>"; };
+		0A80C7D924D003F8005A50B9 /* LZDataTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDataTrackTool.m; sourceTree = "<group>"; };
+		0A80C7DA24D003F8005A50B9 /* LZMethodSwizzingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMethodSwizzingTool.h; sourceTree = "<group>"; };
+		0A80C7DB24D003F8005A50B9 /* LZDataTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDataTrackTool.h; sourceTree = "<group>"; };
+		0AD88B1624E0F4A500D4C288 /* UIGestureRecognizer+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Track.h"; sourceTree = "<group>"; };
+		0AD88B1724E0F4A500D4C288 /* UIGestureRecognizer+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Track.m"; sourceTree = "<group>"; };
+		0AD88B1824E0F4A500D4C288 /* UICollectionView+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Track.h"; sourceTree = "<group>"; };
+		0AD88B1924E0F4A500D4C288 /* UITableView+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Track.h"; sourceTree = "<group>"; };
+		0AD88B1A24E0F4A500D4C288 /* UIControl+Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Track.h"; sourceTree = "<group>"; };
+		0AD88B1B24E0F4A500D4C288 /* UIControl+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Track.m"; sourceTree = "<group>"; };
+		0AD88B1C24E0F4A500D4C288 /* UICollectionView+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Track.m"; sourceTree = "<group>"; };
+		0AD88B1D24E0F4A500D4C288 /* UITableView+Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Track.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A80C7B524D0018A005A50B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A20F59B24E0F616001FE86A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0A20F5B124E288C4001FE86A /* LZDataTrackKit.h */,
+				0A20F5AE24E2873E001FE86A /* LZCaptureTool.h */,
+				0A20F5AF24E2873E001FE86A /* LZCaptureTool.m */,
+				0A80C7DB24D003F8005A50B9 /* LZDataTrackTool.h */,
+				0A80C7D924D003F8005A50B9 /* LZDataTrackTool.m */,
+				0A80C7DA24D003F8005A50B9 /* LZMethodSwizzingTool.h */,
+				0A80C7D824D003F8005A50B9 /* LZMethodSwizzingTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0A20F59C24E0F627001FE86A /* HookClass */ = {
+			isa = PBXGroup;
+			children = (
+				0A80C7D624D003BA005A50B9 /* UIViewController+Track.h */,
+				0A80C7D524D003BA005A50B9 /* UIViewController+Track.m */,
+				0AD88B1924E0F4A500D4C288 /* UITableView+Track.h */,
+				0AD88B1D24E0F4A500D4C288 /* UITableView+Track.m */,
+				0AD88B1824E0F4A500D4C288 /* UICollectionView+Track.h */,
+				0AD88B1C24E0F4A500D4C288 /* UICollectionView+Track.m */,
+				0AD88B1A24E0F4A500D4C288 /* UIControl+Track.h */,
+				0AD88B1B24E0F4A500D4C288 /* UIControl+Track.m */,
+				0AD88B1624E0F4A500D4C288 /* UIGestureRecognizer+Track.h */,
+				0AD88B1724E0F4A500D4C288 /* UIGestureRecognizer+Track.m */,
+			);
+			path = HookClass;
+			sourceTree = "<group>";
+		};
+		0A2965E424DD3B28003BC725 /* FindBestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A2965E524DD3B28003BC725 /* LZFindVCManager.h */,
+				0A2965E624DD3B28003BC725 /* LZFindVCManager.m */,
+			);
+			path = FindBestViewController;
+			sourceTree = "<group>";
+		};
+		0A80C7AF24D0018A005A50B9 = {
+			isa = PBXGroup;
+			children = (
+				0A80C7BA24D0018A005A50B9 /* LZDataTrackerDemo */,
+				0A80C7B924D0018A005A50B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A80C7B924D0018A005A50B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A80C7B824D0018A005A50B9 /* LZDataTrackerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A80C7BA24D0018A005A50B9 /* LZDataTrackerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A80C7D424D001E1005A50B9 /* LZDataTrackerKit */,
+				0A80C7BB24D0018A005A50B9 /* AppDelegate.h */,
+				0A80C7BC24D0018A005A50B9 /* AppDelegate.m */,
+				0A80C7BE24D0018A005A50B9 /* SceneDelegate.h */,
+				0A80C7BF24D0018A005A50B9 /* SceneDelegate.m */,
+				0A2965E124DD30BC003BC725 /* RootViewController.h */,
+				0A2965E224DD30BC003BC725 /* RootViewController.m */,
+				0A2965DC24DD1453003BC725 /* SecondViewController.h */,
+				0A2965DD24DD1453003BC725 /* SecondViewController.m */,
+				0A2965DE24DD1453003BC725 /* SecondViewController.xib */,
+				0A20F5A224E0F8BD001FE86A /* ThirdViewController.h */,
+				0A20F5A324E0F8BD001FE86A /* ThirdViewController.m */,
+				0A20F5A424E0F8BD001FE86A /* ThirdViewController.xib */,
+				0A20F59D24E0F869001FE86A /* TableViewCell.h */,
+				0A20F59E24E0F869001FE86A /* TableViewCell.m */,
+				0A20F59F24E0F869001FE86A /* TableViewCell.xib */,
+				0A20F5A724E11E08001FE86A /* CollectionViewCell.h */,
+				0A20F5A824E11E08001FE86A /* CollectionViewCell.m */,
+				0A20F5A924E11E08001FE86A /* CollectionViewCell.xib */,
+				0A80C7C424D0018A005A50B9 /* Main.storyboard */,
+				0A80C7C724D0018B005A50B9 /* Assets.xcassets */,
+				0A20F5AC24E15AFD001FE86A /* LZDataTrack.json */,
+				0A2965DA24DCFD8C003BC725 /* LZDataTrack.plist */,
+				0A80C7C924D0018B005A50B9 /* LaunchScreen.storyboard */,
+				0A80C7CC24D0018B005A50B9 /* Info.plist */,
+				0A80C7CD24D0018B005A50B9 /* main.m */,
+			);
+			path = LZDataTrackerDemo;
+			sourceTree = "<group>";
+		};
+		0A80C7D424D001E1005A50B9 /* LZDataTrackerKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A2965E424DD3B28003BC725 /* FindBestViewController */,
+				0A20F59C24E0F627001FE86A /* HookClass */,
+				0A20F59B24E0F616001FE86A /* Tools */,
+			);
+			path = LZDataTrackerKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A80C7B724D0018A005A50B9 /* LZDataTrackerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A80C7D124D0018B005A50B9 /* Build configuration list for PBXNativeTarget "LZDataTrackerDemo" */;
+			buildPhases = (
+				0A80C7B424D0018A005A50B9 /* Sources */,
+				0A80C7B524D0018A005A50B9 /* Frameworks */,
+				0A80C7B624D0018A005A50B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZDataTrackerDemo;
+			productName = HGDataTrackerDemo;
+			productReference = 0A80C7B824D0018A005A50B9 /* LZDataTrackerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A80C7B024D0018A005A50B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = plz;
+				TargetAttributes = {
+					0A80C7B724D0018A005A50B9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 0A80C7B324D0018A005A50B9 /* Build configuration list for PBXProject "LZDataTrackerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A80C7AF24D0018A005A50B9;
+			productRefGroup = 0A80C7B924D0018A005A50B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A80C7B724D0018A005A50B9 /* LZDataTrackerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A80C7B624D0018A005A50B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A20F5A624E0F8BD001FE86A /* ThirdViewController.xib in Resources */,
+				0A80C7CB24D0018B005A50B9 /* LaunchScreen.storyboard in Resources */,
+				0A20F5AD24E15AFD001FE86A /* LZDataTrack.json in Resources */,
+				0A20F5A124E0F869001FE86A /* TableViewCell.xib in Resources */,
+				0A2965DB24DCFD8C003BC725 /* LZDataTrack.plist in Resources */,
+				0A80C7C824D0018B005A50B9 /* Assets.xcassets in Resources */,
+				0A80C7C624D0018A005A50B9 /* Main.storyboard in Resources */,
+				0A20F5AB24E11E08001FE86A /* CollectionViewCell.xib in Resources */,
+				0A2965E024DD1453003BC725 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A80C7B424D0018A005A50B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD88B2024E0F4A500D4C288 /* UICollectionView+Track.m in Sources */,
+				0A80C7BD24D0018A005A50B9 /* AppDelegate.m in Sources */,
+				0A2965E724DD3B29003BC725 /* LZFindVCManager.m in Sources */,
+				0AD88B2124E0F4A500D4C288 /* UITableView+Track.m in Sources */,
+				0A80C7DC24D003F8005A50B9 /* LZMethodSwizzingTool.m in Sources */,
+				0AD88B1F24E0F4A500D4C288 /* UIControl+Track.m in Sources */,
+				0A20F5AA24E11E08001FE86A /* CollectionViewCell.m in Sources */,
+				0A80C7CE24D0018B005A50B9 /* main.m in Sources */,
+				0A20F5A024E0F869001FE86A /* TableViewCell.m in Sources */,
+				0A20F5B024E2873E001FE86A /* LZCaptureTool.m in Sources */,
+				0A2965DF24DD1453003BC725 /* SecondViewController.m in Sources */,
+				0A2965E324DD30BC003BC725 /* RootViewController.m in Sources */,
+				0A80C7DD24D003F8005A50B9 /* LZDataTrackTool.m in Sources */,
+				0A20F5A524E0F8BD001FE86A /* ThirdViewController.m in Sources */,
+				0A80C7C024D0018A005A50B9 /* SceneDelegate.m in Sources */,
+				0A80C7D724D003BA005A50B9 /* UIViewController+Track.m in Sources */,
+				0AD88B1E24E0F4A500D4C288 /* UIGestureRecognizer+Track.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A80C7C424D0018A005A50B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A80C7C524D0018A005A50B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A80C7C924D0018B005A50B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A80C7CA24D0018B005A50B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A80C7CF24D0018B005A50B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A80C7D024D0018B005A50B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A80C7D224D0018B005A50B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PA5V89JGK;
+				INFOPLIST_FILE = LZDataTrackerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plz.com.LZDataTrackerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A80C7D324D0018B005A50B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PA5V89JGK;
+				INFOPLIST_FILE = LZDataTrackerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plz.com.LZDataTrackerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A80C7B324D0018A005A50B9 /* Build configuration list for PBXProject "LZDataTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A80C7CF24D0018B005A50B9 /* Debug */,
+				0A80C7D024D0018B005A50B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A80C7D124D0018B005A50B9 /* Build configuration list for PBXNativeTarget "LZDataTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A80C7D224D0018B005A50B9 /* Debug */,
+				0A80C7D324D0018B005A50B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A80C7B024D0018A005A50B9 /* Project object */;
+}
